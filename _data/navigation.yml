@@ -1,7 +1,7 @@
 # main links
 main:
-  - title: "Research"
-    url: /pages/research/
+  # - title: "Research"
+  #   url: https://pcjennings.github.io/pages/research/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
