@@ -14,7 +14,7 @@ title_separator          : "-"
 name                     : "Paul C. Jennings"
 description              : "Personal site for Paul C. Jennings."
 url                      : "https://pcjennings.github.io"
-baseurl                  : "/pcjennings"
+baseurl                  : # "/pcjennings"
 repository               : "pcjennings/pcjennings.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
