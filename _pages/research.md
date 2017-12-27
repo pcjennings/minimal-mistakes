@@ -14,3 +14,4 @@ the oxygen reduction reaction. I am particularly interested in global
 optimisation of nanoparticles using search techniques such as genetic
 algorithms. This allows for the investigation of realistic structures before
 assessing catalytic activity.
+{: .text-justify}
