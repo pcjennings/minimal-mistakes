@@ -1,5 +1,6 @@
+---
 permalink: /about/
-
-# Paul C. Jennings
+title: "About"
+---
 
 Currently working as a postdoctoral researcher at Stanford University.
