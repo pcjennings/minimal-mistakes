@@ -1,6 +1,8 @@
 ---
 permalink: /research/
 title: "Research"
+header:
+  image: /assets/images/research_splash.png
 ---
 
 ## General

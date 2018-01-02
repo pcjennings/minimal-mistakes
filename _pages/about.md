@@ -3,6 +3,8 @@ permalink: /about/
 title: "About"
 toc: true
 toc_label: "Table of Contents"
+header:
+  image: /assets/images/about_splash.png
 ---
 
 ### Stanford Postdoc (_2016 - Present_)
