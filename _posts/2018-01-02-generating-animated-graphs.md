@@ -8,4 +8,4 @@ The easiest way to generate a gif without needing to change pre-existing code to
 
 The automated script is relatively simple.
 
-![animated graph](scripts/animated.gif)
+![animated graph](../scripts/animated.gif)

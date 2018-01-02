@@ -1,5 +1,4 @@
-"""Animate results from a GA search for chemical ordering optimization in
-nanoparticles. Assumes http://www.imagemagick.org/ has been installed."""
+"""Animated graph, assumes http://www.imagemagick.org/ has been installed."""
 import numpy as np
 import subprocess
 import matplotlib
@@ -9,8 +8,8 @@ import matplotlib.cm as cm
 matplotlib.rc('font', serif='Helvetica Neue Light')
 matplotlib.rcParams.update({'font.size': 22})
 
-p1 = np.random.random_sample(size=20)
-p2 = np.random.random_sample(size=20)
+p1 = np.random.random_sample(size=100)
+p2 = np.random.random_sample(size=100)
 index = list(range(len(p1)))
 
 step_p1, step_p2, step_index = [], [], []
