@@ -2,7 +2,7 @@ I would like to see how to build a basic neural network for regression problems 
 
 ## Dataset
 
-I have just chosen a relatively simple dataset to perform some studies on. I won't go into detail on how it was generated, it is sufficient to say that there are approximately 20,000 data points and 200 features, with each data point having a single target. The dataset I am using, `example_data.csv`, can be downloaded from the [repository](https://goo.gl/7kGawz).
+I have just chosen a relatively simple dataset to perform some studies on. I won't go into detail on how it was generated, it is sufficient to say that there are approximately 20,000 data points and 200 features, with each data point having a single target. The dataset I am using, `example_data.csv`, can be downloaded from the [repository](https://github.com/pcjennings/pcjennings.github.io/tree/master/scripts/2018-01-01-A-neural-network-for-regression-on-small-data).
 
 ## Loading Data
 
@@ -109,4 +109,4 @@ After some optimization of the neural network, it now gives comparable results t
   print('NN error: {}'.format(e))
   ```
 
-This process has resulted in a relatively good neural network, even if the setup is a little basic. In reality, there are many more steps that can be taken to produce a more optimized model, but this has produced good results. The final script, `sklearn_nn.py`, can be found in the [repository](https://goo.gl/7kGawz).
+This process has resulted in a relatively good neural network, even if the setup is a little basic. In reality, there are many more steps that can be taken to produce a more optimized model, but this has produced good results. The final script, `sklearn_nn.py`, can be found in the [repository](https://github.com/pcjennings/pcjennings.github.io/tree/master/scripts/2018-01-01-A-neural-network-for-regression-on-small-data).
