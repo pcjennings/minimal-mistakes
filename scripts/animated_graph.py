@@ -22,7 +22,8 @@ for i in index:
     fig = plt.figure(figsize=(12, 12))
     ax = fig.add_subplot(111)
     ax.axis([min(p1)-0.1, max(p1)+0.1, min(p2)-0.1, max(p2)+0.1])
-    ax.scatter(step_p1, step_p2, c=step_index, cmap=cm.rainbow, alpha=0.5)
+    ax.scatter(step_p1, step_p2, c=step_index, cmap=cm.rainbow, alpha=0.5,
+               s=200)
     plt.xlabel('variable 1')
     plt.ylabel('variable 2')
 
