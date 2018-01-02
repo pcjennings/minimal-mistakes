@@ -3,6 +3,7 @@ toc: true
 toc_label: "Table of Contents"
 header:
   image: /assets/images/neural_network_crop.png
+  caption: "Photo credit: [**deviantart**](http://fav.me/d3eim1d)"
 ---
 
 I would like to see how to build a basic neural network for regression problems on small datasets. The aim is to see how well a neural net can perform when using 1,000 data points or fewer to train the model. Gaussian processes typically perform well on these problems and so I will be using this as a baseline upon which to compare the neural net.
@@ -131,5 +132,3 @@ After some optimization of the neural network, it now gives comparable results t
 
 This process has resulted in a relatively good neural network, even if the setup is a little basic. In reality, there are many more steps that can be taken to produce a more optimized model, but this has produced good results. The final script, `sklearn_nn.py`, can be found in the [repository](https://github.com/pcjennings/pcjennings.github.io/tree/master/scripts/2018-01-01-A-neural-network-for-regression-on-small-data).
 {: .text-justify}
-
-###### _Header image from [here](http://fav.me/d3eim1d)_
