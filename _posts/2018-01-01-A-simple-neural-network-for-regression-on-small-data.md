@@ -1,10 +1,8 @@
+I would like to see how to build a basic neural network for regression problems on small datasets. The aim is to see how well a neural net can perform when using 1,000 data points or fewer to train the model. Gaussian processes typically perform well on these problems and so I will be using this as a baseline upon which to compare the neural net.
+
 ## Dataset
 
 I have just chosen a relatively simple dataset to perform some studies on. I won't go into detail on how it was generated, it is sufficient to say that there are approximately 20,000 data points and 200 features, with each data point having a single target. The dataset I am using, `example_data.csv`, can be downloaded from the [repository](https://goo.gl/7kGawz).
-
-## Aim
-
-I would like to see how to build a basic neural network for regression problems on small datasets. The aim is to see how well a neural net can perform when using 1,000 data points or fewer to train the model. Gaussian processes typically perform well on these problems and so I will be using this as a baseline upon which to compare the neural net.
 
 ## Loading Data
 
@@ -13,9 +11,9 @@ To get the data from the raw csv format, I use the following code:
   ```python
   import numpy as np
   import pandas as pd
-  
+
   from sklearn.preprocessing import scale
-  
+
   # load and set up data
   data = pd.read_csv('example_data.csv')
   data = data.sample(data.shape[0])
@@ -42,7 +40,7 @@ In order to assess the various methods, I am using a root mean squared error cos
   def cost(prediction, target):
     assert np.shape(prediction) == np.shape(target)
     r = prediction - target
-    
+
     return np.sum(r**2) / len(target)
   ```
 
@@ -78,7 +76,7 @@ The starting setup of the neural network is as follows:
       ).fit(X_train, Y_train)
   p = nn.predict(X_test)
   e = cost(p, Y_test)
-  
+
   print('NN error: {}'.format(e))
   ```
 
@@ -112,4 +110,3 @@ After some optimization of the neural network, it now gives comparable results t
   ```
 
 This process has resulted in a relatively good neural network, even if the setup is a little basic. In reality, there are many more steps that can be taken to produce a more optimized model, but this has produced good results. The final script, `sklearn_nn.py`, can be found in the [repository](https://goo.gl/7kGawz).
-
