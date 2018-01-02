@@ -2,9 +2,9 @@
 toc: true
 toc_label: "Table of Contents"
 header:
-  image: /assets/images/neural_network_crop.png
+  image: /assets/images/neural_network_splash.png
   caption: "Photo credit: [**deviantart**](http://fav.me/d3eim1d)"
-  teaser: /assets/images/neural_network_crop.png
+  teaser: /assets/images/neural_network_teaser.png
 ---
 
 I would like to see how to build a basic neural network for regression problems on small datasets. The aim is to see how well a neural net can perform when using 1,000 data points or fewer to train the model. Gaussian processes typically perform well on these problems and so I will be using this as a baseline upon which to compare the neural net.
