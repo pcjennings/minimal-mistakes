@@ -118,4 +118,4 @@ After some optimization of the neural network, it now gives comparable results t
 
 This process has resulted in a relatively good neural network, even if the setup is a little basic. In reality, there are many more steps that can be taken to produce a more optimized model, but this has produced good results. The final script, `sklearn_nn.py`, can be found in the [repository](https://github.com/pcjennings/pcjennings.github.io/tree/master/scripts/2018-01-01-A-neural-network-for-regression-on-small-data).
 
-*Header image from [here](http://fav.me/d3eim1d)*
+###### _Header image from [here](http://fav.me/d3eim1d)_
