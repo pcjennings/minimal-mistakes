@@ -1,9 +1,17 @@
+---
+toc: true
+toc_label: "Table of Contents"
+header:
+  image: /assets/images/animated_splash.png
+---
+
 There are a number of ways to generate animated graphs. In this post, I will
 use a combination of matplotlib and
 [ImageMagick](http://www.imagemagick.org/script/index.php) to produce a
 relatively easy and robust way to generate an animated gif of a graph. It is
 possible to do this directly with matplotlib, however, I found this to be a
 little fiddly.
+{: .text-justify}
 
 ## General Method
 
@@ -12,6 +20,7 @@ too much is to create a large number of individual graphs and then stitch them
 together. The graphs are created with matplotlib and saved as png files, though
 any plotting library could be used. ImageMagick is then called to stitch all
 the individual images together.
+{: .text-justify}
 
 ## Automating
 
@@ -19,6 +28,7 @@ The automated script is relatively simple. In the following example, some
 random points are generated and iteratively added to the plot. ImageMagick is
 then called with a command line argument within the script and an gif file
 saved.
+{: .text-justify}
 
   ```python
   """Assumes http://www.imagemagick.org/ has been installed."""
@@ -68,3 +78,4 @@ This is a flexible way to generated an animated graph. The underlying plotting
 function doesn't really need changing, and just needs wrapping in a loop to
 produce the appropriate number of images. These images are then stitched
 together with some appropriate delay.
+{: .text-justify}
