@@ -81,4 +81,4 @@ produce the appropriate number of images. These images are then stitched
 together with some appropriate delay.
 {: .text-justify}
 
-###### _I have this working on a macOS, but in theory, it should work on most other configurations_
+###### _I have this working on a macOS, but in theory, it should work on most other operating systems._
