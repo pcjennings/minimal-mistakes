@@ -1,7 +1,7 @@
 ---
 header:
-  image: /assets/images/git_logo_splash.png
-  teaser: /assets/images/git_logo_teaser.png
+  image: /assets/images/git_splash.png
+  teaser: /assets/images/git_teaser.png
 ---
 
 My first article was published in an academic journal in 2012. At this time I
