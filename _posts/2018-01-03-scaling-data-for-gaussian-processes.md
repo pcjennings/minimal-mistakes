@@ -12,6 +12,4 @@ With many application of machine learning, it is not possible to know the scope 
 
 Two very commonly used methods of scaling data are standardization and normalization. The meaning of these can vary slightly between field so I will define them first. For the purposes of this discussion, standardization is defined as follows:
 
-$$$
-{x}^{\prime} = \frac{x - \bar{x}}{\sigma}
-$$$
+![standardization](../assets/images/standardization.png)
