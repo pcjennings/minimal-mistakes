@@ -3,6 +3,7 @@ toc: true
 toc_label: "Table of Contents"
 header:
   image: /assets/images/animated_splash.png
+  teaser: /assets/images/animated_teaser.png
 ---
 
 There are a number of ways to generate animated graphs. In this post, I will
@@ -26,7 +27,7 @@ the individual images together.
 
 The automated script is relatively simple. In the following example, some
 random points are generated and iteratively added to the plot. ImageMagick is
-then called with a command line argument within the script and an gif file
+then called with a command line argument within the script and a gif file
 saved.
 {: .text-justify}
 
@@ -70,12 +71,14 @@ saved.
 
 The graph then comes out as below:
 
-![animated graph](../scripts/animated.gif)
+![animated graph](../assets/images/animated.gif)
 
 ## Conclusions
 
-This is a flexible way to generated an animated graph. The underlying plotting
+This is a flexible way to generate an animated graph. The underlying plotting
 function doesn't really need changing, and just needs wrapping in a loop to
 produce the appropriate number of images. These images are then stitched
 together with some appropriate delay.
 {: .text-justify}
+
+###### _I have this working on a macOS, but in theory, it should work on most other configurations_
