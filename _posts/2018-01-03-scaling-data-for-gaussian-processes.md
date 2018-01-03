@@ -17,3 +17,5 @@ Two very commonly used methods of scaling data are standardization and normaliza
 $$
 {\color{white}{x}^{\prime} = \frac{x - \bar{x}}{\sigma}}
 $$
+
+And normalization as below:
