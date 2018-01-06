@@ -10,6 +10,10 @@ on any computer and should provide the same environment making it a great tool
 for e.g. developing consistently as part of a team.
 {: .text-justify}
 
+## Requirements
+
+-   [Docker](https://www.docker.com)
+
 
 ## Image Definition
 

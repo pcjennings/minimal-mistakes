@@ -14,6 +14,12 @@ typically perform well on these problems and so I will be using this as a
 baseline upon which to compare the neural net.
 {: .text-justify}
 
+## Requirements
+
+-   [numpy](http://www.numpy.org/)
+-   [pandas](http://pandas.pydata.org/)
+-   [scikit-learn](http://scikit-learn.org/stable/index.html)
+
 ## Dataset
 
 I have just chosen a relatively simple dataset to perform some studies on.

@@ -14,6 +14,12 @@ possible to do this directly with matplotlib, however, I found this to be a
 little fiddly.
 {: .text-justify}
 
+## Requirements
+
+-   [ImageMagick](http://www.imagemagick.org/script/index.php)
+-   [numpy](http://www.numpy.org/)
+-   [matplotlib](https://matplotlib.org/)
+
 ## General Method
 
 The easiest way to generate a gif without needing to change pre-existing code
