@@ -3,7 +3,7 @@ toc: true
 toc_label: "Table of Contents"
 header:
   image: /assets/images/docker_splash.png
-  teaser: /assets/images/animated_teaser.png
+  teaser: /assets/images/docker_teaser.png
 ---
 Docker is very useful for creating a virtual machine of sorts. This can be run
 on any computer and should provide the same environment making it a great tool
